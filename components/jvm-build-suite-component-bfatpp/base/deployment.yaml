@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-bfatpp
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-bkde-tenant/jvm-build-suite-application-dydp/jvm-build-suite-component-bfatpp@sha256:d358946d64d400dda227aafde907e42ac98fa2c79c5b386eb18052e97757a62d
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
